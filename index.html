@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Box</title>
+
+    <!-- link to custom css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Modal Singup</h2>
+      <button id="btn-singup">Singup</button>
+      <button id="btn-fullscreen">
+        OpenFullScreen <i class="fas fa-expand"></i>
+      </button>
+      <button id="btn-closefullscreen">
+        CloseFullScreen <i class="fas fa-portal-exit"></i>
+      </button>
+
+      <!-- Start  modal Area -->
+      <!-- Start Singup modal -->
+      <div id="singupmodal" class="modal">
+        <span class="btn-close">X</span>
+        <form class="form" action="" method="">
+          <h2>Register Form</h2>
+          <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input
+              type="text"
+              name="username"
+              id="uername"
+              class="input-group-text"
+              placeholder="Usermname"
+            />
+          </div>
+
+          <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-group-text"
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="input-group">
+            <i class="fas fa-key"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input-group-text"
+              placeholder="password"
+            />
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn">Register</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- End Singup modal -->
+      <!-- End  modal Area -->
+    </div>
+
+    <!-- Link to fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/34ce5b6af8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js" type="text/javascript"></script>
+  </body>
+</html>
+<!-- 16DONE -->
