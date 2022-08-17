@@ -87,7 +87,7 @@ body {
 }
 /* Fullscreen for css */
 :fullscreen {
-  background-color: rgb(173, 150, 150);
+  background-color: rgb(124, 12, 12);
 }
 :-ms-fullscreen {
   background-color: #777;
